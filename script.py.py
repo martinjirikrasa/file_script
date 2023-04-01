@@ -14,4 +14,4 @@ reg.SetValue(key, '', reg.REG_SZ, '&Tisková zakázka')
 
 key1 = reg.CreateKeyEx(key, r"command", 0, reg.KEY_SET_VALUE)
 
-reg.SetValue(key1, '', reg.REG_SZ, r'{} "{}\file_organier.py" "%V"'.format(python_exe, cwd))
+reg.SetValue(key1, '', reg.REG_SZ, r'{} "{}\file_organiser.py" "%V"'.format(python_exe, cwd))
