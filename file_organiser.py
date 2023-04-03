@@ -8,7 +8,10 @@ os.mkdir("checkout")
 my_directory = os.getcwd()
 
 original = r'C:\Users\marti\Desktop\test_matej_tst.txt'
-new_name = "new_name.txt"
+cesta = my_directory.split("\\")
+last = cesta[-1]
+new_name = f"{last}.txt"
+
 target = os.path.join(my_directory, "edit", new_name)
 
 shutil.copyfile(original, target)
