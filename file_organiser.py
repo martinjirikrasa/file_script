@@ -8,7 +8,7 @@ os.mkdir("checkout")
 my_directory = os.getcwd()
 
 # original - path to the file we want to copy
-original = r'C:\Users\marti\Desktop\test_matej_tst.txt'
+original = r'----.txt'
 cesta = my_directory.split("\\")
 last = cesta[-1]
 new_name = f"{last}.txt"
